@@ -27,7 +27,7 @@ if(localStorage.getItem("authtoken")===null){
           <StudentCard student={student} />
           <div className="right">
             <h2>Books Details</h2>
-            <button onClick={handleadd}>+ Add</button>
+            <button onClick={handleadd}>Add</button>
             <hr />
             <div className="table2">
             <BookData  setBookup={setBookup}/>
