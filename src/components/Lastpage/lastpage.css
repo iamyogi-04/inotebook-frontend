@@ -1,0 +1,25 @@
+.d-flex.justify-content-evenly {
+    width: 100%;
+    height: 100vh;
+}
+.left {
+    border: 1px solid;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    padding: 3%;
+}
+.right {
+    border: 1px solid;
+    height: 100%;
+    width: 60%;
+    padding: 3%;
+}
+.table {
+    width: 100%;
+    height: 40%;
+}
+.container-fluid.main {
+    margin-top: 2%;
+}
