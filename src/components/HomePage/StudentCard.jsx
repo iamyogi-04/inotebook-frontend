@@ -15,7 +15,7 @@ const StudentCard = ({student}) => {
     <div className="left">
             <h2>Student Details</h2>
             
-            <button  className='logout' onClick={handlelogout}>logOut</button>
+            <button  className='logout' onClick={handlelogout}>Logout</button>
             <hr />
             <div className="inner">
             <table className="table" >
